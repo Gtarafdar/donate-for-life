@@ -1,7 +1,23 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
+    
 }
+body h1{
+    font-size: 65px;}
+
+body h2{
+    font-size: 45px;
+}
+
+body h3{
+    font-size: 24px;
+}
+
+body p{
+    font-size: 18px;
+}
+
 footer h2{
     font-family: 'Lobster', cursive;
 }
@@ -9,6 +25,7 @@ footer h2{
 
     background:
     linear-gradient(360deg, #121212 0%, #12121200 100%), url(./images/donation6.jpg) bottom center no-repeat;
+    background-size: cover;
    padding: 100px;
 }
 
@@ -17,13 +34,8 @@ footer h2{
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    
+    font-size: 18px;
 }
-
-.hero-texts h1{
-    font-size: 50px;
-}
-
 
 .hero-btn{
     text-decoration: none;
@@ -32,11 +44,74 @@ footer h2{
     padding: 13px 43px;
     font-weight: 700;
     border-radius: 6px;
-    
 }
 
 .hero-btn :hover{
     background-color: #fa3737;
     cursor: pointer;
+}
+
+.donate-today{
+    text-align: center;
+}
+
+.donation-amount{
+    display: flex;
+    justify-content:space-between;
+    width: 600px;
+    margin-left: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.donate-graybox{
+    background-color: #fafafa;
+    border: .5px solid #80808018;
+    color: #000000;
+    padding: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.donate-graybox :hover{
+    cursor: pointer;
+}
+
+.donate-redbox{
+    background-color: rgba(255, 238, 238, 1);
+    border: 1px solid rgba(255, 89, 89, 1);
+    color: rgba(255, 89, 89, 1);
+    padding: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.donate-redbox :hover{
+    cursor: pointer;
+}
+
+#text-field{
+    padding: 15px 200px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+    color: rgba(179, 179, 179, 1);
+}
+
+#form-btn{
+    text-decoration: none;
+    background-color: #ff5959;
+    color: white;
+    padding: 13px 43px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 2px solid #ff5959;
+    font-size: 20px;
+}
+
+#form-btn :hover{
+        cursor: pointer;
 }
 
