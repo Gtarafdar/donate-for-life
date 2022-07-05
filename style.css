@@ -1,0 +1,42 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+}
+.hero-banner{
+
+    background:
+    linear-gradient(360deg, #121212 0%, #12121200 100%), url(./images/donation6.jpg) bottom center no-repeat;
+   padding: 100px;
+}
+
+.hero-texts{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.hero-texts h1{
+    font-size: 50px;
+}
+
+
+.hero-btn{
+    text-decoration: none;
+    background-color: #ff5959;
+    color: white;
+    padding: 13px 43px;
+    font-weight: 700;
+    border-radius: 6px;
+    
+}
+
+.hero-btn :hover{
+    background-color: #fa3737;
+    cursor: pointer;
+}
+
